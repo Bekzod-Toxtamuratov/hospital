@@ -17,7 +17,7 @@ const app = express();
 
 app.use(cookieParser()); // frontend kelyatgan cookie parse qiladi;
 app.use(express.json());
-
+console.log('dad');
 const hbs = exHbs.create({
   defaultLayout: "main",
   extname: ".hbs",
